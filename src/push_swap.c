@@ -20,6 +20,7 @@ int	main(int argc, char **argv)
 	a = ft_creat_stack();
 	b = ft_creat_stack();
 	ft_judge(a, b, argv, argc);
+	ft_is_sort(a, b);
 	ft_sand_onestep(a, b, 1, ft_chunk(a->size));
 	ft_sand_twostep(a, b);
 	ft_free_stack(a);

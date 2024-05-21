@@ -74,4 +74,6 @@ int quick_cnt(t_stack *stack, int num);
 void	ft_sand_onestep(t_stack *a, t_stack *b, int cnt, int chunk);
 void	ft_sand_twostep(t_stack *a, t_stack *b);
 int	ft_chunk(int size);
+//check.c
+void ft_is_sort(t_stack *a, t_stack *b);
 #endif
